@@ -255,7 +255,33 @@ We use the graphic boxplot to calculate the frequency of minimum diameter (Fig \
 
 \subsubsection{qplot}
 
-We use the graphic qplot to 
+We use the graphic qplot to plot the results of diameter with the pottery workhops to know if there are difference among them \ref{qplot}
+
+\begin{verbatim}
+qplot(x= rim_diameter_max, y= rim_diameter_min, data= project, 
+main= "Frecuency", color= manufacture) 
+\end{verbatim}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.30]{qplotminmax.png}
+\label{qplot}
+\caption{Using qplot graphics}
+\end{figure}
+
+
+\subsubsection{ggplot2}
+
+We have to install the package ggplot2 to use it as library
+
+\begin{verbatim}
+install.package ("ggplot2")
+library (gglot)
+\end{verbatim}
+
+
+
+
 
 
 
