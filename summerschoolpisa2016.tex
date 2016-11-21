@@ -192,6 +192,75 @@ To do that, we select names of amphorae, maximum and minimum diameter and manufa
 \caption{Database selected}
 \end{figure} 
 
+\section{R program program exercises}
+
+We are exploring the database produced by MySQL with R program. To do this, we will use R in the command line (no R studio).
+
+\subsection{Calculate the mean with R program}
+
+We want to calculate the mean of maximum and minimum diameter of the amphorae to know...
+
+We use the following code with R to calculate the mean maximum and minimum diameter
+
+\begin{verbatim}
+project= project$rim_diameter_max
+mean (project)
+[1] 13.1
+\end{verbatim}
+
+\begin{verbatim}
+project= project$rim_diameter_min
+mean (project)
+[1] 10.95
+\end{verbatim}
+
+We want also to calculate the frequency of maximum diameter in our database.
+
+We perform with the following code
+
+\begin{verbatim}
+hist(project$rim_diameter_max, border= "white", col= "black", 
+main= "Frecuency of maximum diameter")
+\end{verbatim}
+
+We elaborate an histogram with the frequency of the maximum diameter. We perform the histogram with the color black and the borders white. We put a tittle with the command main (Fig \ref{histomax}).
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.30]{histomax.png}
+\label{histomax}
+\caption{Histogram with the frequency of maximum diameter}
+\end{figure} 
+
+We use the same code to calculate the frequency of minimum diameter as well. 
+
+\begin{verbatim}
+
+boxplot(project$rim_diameter_min, main= "Frecuency of minimum diameter")
+
+\end{verbatim}
+
+We use the graphic boxplot to calculate the frequency of minimum diameter (Fig \ref{boxmin})
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.30]{boxplotmin.png}
+\label{boxmin}
+\caption{Boxplot with the frequency of minimum diameter}
+\end{figure} 
+
+
+
+\subsection{exercises using different graphics}
+
+\subsubsection{qplot}
+
+We use the graphic qplot to 
+
+
+
+
+
 
 
 
