@@ -255,7 +255,7 @@ We use the graphic boxplot to calculate the frequency of minimum diameter (Fig \
 
 \subsubsection{qplot}
 
-We use the graphic qplot to plot the results of diameter with the pottery workhops to know if there are difference among them \ref{qplot}
+We use the graphic qplot to plot the results of diameter with the pottery workhops to know if there are difference among them \ref{Fig qplot}
 
 \begin{verbatim}
 qplot(x= rim_diameter_max, y= rim_diameter_min, data= project, 
@@ -272,12 +272,69 @@ main= "Frecuency", color= manufacture)
 
 \subsubsection{ggplot2}
 
-We have to install the package ggplot2 to use it as library
+We want to see the diameter differences among pottery workshops and type
+
+We have to install before the package ggplot2 to use it as library
 
 \begin{verbatim}
 install.package ("ggplot2")
-library (gglot)
+library (gglot2)
 \end{verbatim}
+
+We select different types of pottery workshops such as Cdiz CAMBIAR fabric, Tunisian fabric, Dressel 20 fabric and Dressel 24 fabric
+
+\begin{verbatim}
+myData= subset(project, manufacture  %in% c("Cdiz fabric", 
+"Tunisian fabric", "Dressel 20 fabric", "Dressel 24 fabric"))
+
+\end{verbatim}
+
+We select the type of amphorae and the manufacture
+
+\begin{verbatim}
+ggplot(myData, aes(x=rim_diameter_max, y=rim_diameter_min, colour= manufacture)) 
++ geom_point() + facet_wrap(~a_name)
+\end{verbatim}
+
+
+And we plot \ref{Fig ggplotex}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.30]{ggplot2ex.png}
+\label{ggplotex}
+\caption{Using ggplot graphics}
+\end{figure}
+
+
+\section{Ontology section}
+
+\subsection{CIDOC-CRM exercises}
+
+We want to show the ontological process based on our data. We used the following ontological characteristics to define our data.
+\begin{itemize}
+\item[-] E.55 Type
+\item[-] E.57 Material
+\item[-] P. 108 was produced by
+\item[-] E.12 Production
+\item[-] P.31 Has modified by
+\item[-] P.14 Carry out by
+\item[-] E.24 Physical made man things
+\item[-] E.39 Actor
+\item[-] E.53 Place
+\item[-] P.53 has former or current location
+\end{itemize}
+
+ \ref{Fig sparex}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{sparex.png}
+\label{sparex}
+\caption{Mapping representing data with CIDOC-CRM}
+\end{figure}
+
+
 
 
 
