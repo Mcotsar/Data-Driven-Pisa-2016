@@ -15,8 +15,6 @@
 \section{Introduction}
 
 
-
-
 \subsection{Dataset}
 
 We analize a dataset with amphorae from different spaces in order to understand the evolution of the amphorae. Our dataset was collected from the project \emph{Roman Amphorae: a digital recourse} within Archaeology data service at University of Southampton. \\
@@ -333,6 +331,59 @@ We want to show the ontological process based on our data. We used the following
 \label{sparex}
 \caption{Mapping representing data with CIDOC-CRM}
 \end{figure}
+
+
+\section{Licenses and data}
+
+\section{Geocalize and QGIS}
+
+\subsection{Open Refine}
+
+We use a .csv file to transform and create geocalization.
+
+\begin{itemize}
+\item[-] We open our data on Open Refine server
+\item[-] We select the column where we want to edit. In the column, we select Edit Column and the option Add column by fetching URLs for the geocalization
+\item[-]We add in expression option \ref{openrefine1}
+\begin{verbatim}
+"http://maps.google.com/maps/api/geocode/json?sensor=false&add
+ress=" + escape(value, "url")
+\end{verbatim}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{openrefine1.png}
+\label{openrefine1}
+\caption{Add geolocalization on Open Refine}
+\end{figure}
+
+\item[-] When the file finish to charge. We select Edit cells and Transform. We write the next code to transform in latitude and longitude \ref{Fig openrefine2}
+\begin{verbatim}
+with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
+" + pair.lng)
+\end{verbatim}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{openrefine2.png}
+\label{openrefine2}
+\caption{Transform the data in latitude and longitude}
+\end{figure}
+\item[-] We select edit column and the option split into several column to separate in two different column \ref{openrefine3}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{openrefine3.png}
+\label{openrefine3}
+\caption{Transform the data in latitude and longitude}
+\end{figure}
+
+\item[-] We export as csv file 
+\end{itemize}
+
+
+\subsection{QGIS}
+
 
 
 
