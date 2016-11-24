@@ -6,7 +6,7 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \author{Maria Coto-Sarmiento}
-\title{Good shit}
+\title{Final project Summer School Data Driven, Pisa, 2016}
 
 \begin{document}
 
@@ -335,6 +335,18 @@ We want to show the ontological process based on our data. We used the following
 
 \section{Licenses and data}
 
+We have selected for our data the licence created by Creative Common. In our case, we believe in the free open data so we chose the licence CC BY-SA. This kind of license allow to modify, develop and use the data, even with commercial purposes. This license also allow to use new creations under the identical terms and indicate if changes were made in our data. \ref{licence}
+
+We think that it could be a good licence for our data because it allows to share our data for free data. 
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.15]{licence.png}
+\label{licence}
+\caption{Type of license CC BY-SA}
+\end{figure}
+
+
 \section{Geocalize and QGIS}
 
 \subsection{Open Refine}
@@ -383,6 +395,52 @@ with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 
 
 \subsection{QGIS}
+
+We use the database modified by Open Refine to produce a spatial visualization on QGIS. We perform the data with QGIS version 2.0.1 Dufour on Linux Mint. 
+
+We follow the step below:
+\begin{itemize}
+\item[-] We choose in Layer option Add Delimiter Tex Layer to attach the csv file. You also can do it in the Toolbars on the left \ref{gismap2}
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{gismap2.png}
+\label{gismap2}
+\caption{Option (in red) to attach the document file}
+\end{figure}
+\item[-] We attach the file that we want to use it and the format. In geometrical definition option we have to be sure for choosing the corrected latitude and longitude \ref{gismap3}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{gismap3.png}
+\label{gismap3}
+\caption{Option of geometry definition and coordinates}
+\end{figure}
+
+\item[-] We need to map our result. So in the plugins option, we have to select Manage and install plugins and get more to install Open Layers. Open Layers is a plugin library to show and manipulate maps from different application on internet. In Linux, this API has to be installed thought Python. So we have to install first a open layer package on Python \ref{gismap4}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{gismap4.png}
+\label{gismap4}
+\caption{Option of geometry definition and coordinates}
+\end{figure}
+
+\item[-] Once installed, we choose the most accurate map server to geocalize our data. In our case, we chose Open Street Maps Layer. 
+\item[-] We map the database \ref{gismap}
+
+\begin{figure}[hdp]
+\centering
+\includegraphics[scale=0.50]{gismap.png}
+\label{gismap}
+\caption{Mapping of the database}
+\end{figure}
+
+\end{itemize}
+
+\subsection{Discussion and Conclusion}
+
+
+
 
 
 
