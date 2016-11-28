@@ -17,9 +17,9 @@
 
 \subsection{Dataset}
 
-We analize a dataset with amphorae from different spaces in order to understand the evolution of the amphorae made in different pottery workshops. Our dataset was collected from the project \emph{Roman Amphorae: a digital recourse} within Archaeology data service at University of Southampton (fig.\ref{picwebarch})
+We analized a dataset with amphorae from different places in order to understand the evolution of the amphorae made in different pottery workshops. Our dataset was collected from the project \emph{Roman Amphorae: a digital recourse} within Archaeology data service at University of Southampton (fig.\ref{picwebarch})
 
-\begin{figure}[hbp]
+\begin{figure}[hdp]
 	\centering
 \includegraphics[scale=0.30]{picture1.png}
 \label{picwebarch}
@@ -68,17 +68,18 @@ Our dataset was divided in 24 columns:
 
 \section{Objetives}
 
+The aim of this project can be divided in different objectives: 
+
 \begin{itemize}
-\item[-] Exploring our database 
-\item[-] Exploring the difference among workshops from different countries
-\item[-] Study the differences on the amphorae production. In particular, we want to focus this project in \textit{Dressel} production. For that, we want to use the amphorae mesurement to analyze the production differences. 
-\item[-] 
+\item[-] A simple exploration of our dataset. We focus our dataset to seek the kind of information that we are going to work. So we need to fit our database to each exercises. 
+\item[-] In particular, we want to explore the differences among workshops from different places. We can detect measurable differences in the amphorae production over time as the result of different pattern of production. 
+\item[-] The exercises will be different adapted to each section. Specifically, we want to focus this project in \textit{Dressel} production. For that, we want to use the amphorae measurement to analyze the production differences. 
 \end{itemize}
 
 
-\section{Mysql}
+\section{MySQL}
 
-We use phpMyAdmin, a free software tool to handle the administration of MySQL  with Linux and perform our data (fig.\ref{myphp})
+We used phpMyAdmin, a free software tool to handle the administration of MySQL  with Linux and perform our data (fig.\ref{myphp})
 
 \begin{figure}[hdp]
 	\centering
@@ -89,7 +90,9 @@ We use phpMyAdmin, a free software tool to handle the administration of MySQL  w
 
 \subsection{MySQL exercises}
 
-\subsubsection{exercise 1}
+We perform some exercises with mySQL and query the dataset. 
+
+\subsubsection{Exercise 1}
 
 We want to know how many rim shapes are "everted". For that, we used the following code
 
@@ -104,11 +107,12 @@ LIMIT 0 , 30
 We select all from our dataset but we want specifically to select from the column rim type the types which are everted. We also specify a limit by 30 (fig. \ref{query1})
 
 \begin{figure}[hdp]
-\centering
+     \centering
 \includegraphics[scale=0.30]{output_query1.png}
 \label{query1}
 \caption{query selecting "everted"}
 \end{figure} 
+
 
 
 \subsubsection{Exercise 2}
@@ -121,7 +125,7 @@ FROM `TBL_NAME`
 WHERE `body_type` = "cylindrical"
 \end{verbatim}
 
-We select the column $a\_name$ from the general table on the dataset. We also select from the body type column which amphorae are cylindrical (fig \ref{query2}). 
+We select the column $a\_name$ from the general table on the dataset. We also select from the body type column which amphorae are cylindrical (fig. \ref{query2}). 
 
 \begin{figure}[hdp]
 \centering
@@ -142,13 +146,13 @@ ORDER BY `rim_diameter_max` DESC
 LIMIT 100 
 \end{verbatim}
 
-We select the columns and ORDER BY in order to know which diameter is the largest. We can choose between ASC (ascending order) or DESC (descending order) (fig \ref{query3})
+We select the columns and ORDER BY in order to know which diameter is the largest. We can choose between ASC (ascending order) or DESC (descending order) (fig. \ref{query3})
 
 \begin{figure}[hdp]
 \centering
 \includegraphics[scale=0.30]{query3.png}
 \label{query3}
-\caption{query selecting two column ordered by maximum diameter}
+\caption{query selecting two columns ordered by maximum diameter}
 \end{figure} 
 
 \subsubsection{Exercise 4}
@@ -164,19 +168,19 @@ ORDER BY `a_name`
 LIMIT 0 , 100
 \end{verbatim}
 
-We select the three columns from the original table and we specifically select body type and shoulder type ordered by names of amphorae (fig \ref{query4})
+We select three columns from the original table and we specifically choose body type, shoulder type and $a\_name$ ordered by names of amphorae (fig. \ref{query4})
 
 \begin{figure}[hdp]
 \centering
 \includegraphics[scale=0.30]{query4.png}
 \label{query4}
-\caption{query selecting shoulder type and body type}
+\caption{query selecting shoulder type, body type and type of amphorae}
 \end{figure} 
 
 
 \subsection{Querying the data}
 
-For our database, we want to select the Dressel types and its maximum and minimum diameters. We want to analyze the differences between diameter and whether are related with the workshops. 
+For our database, we want to select the Dressel types and its maximum and minimum diameters. We are going to analyze the differences between diameters and whether are related with the workshops of each type of amphorae. 
 
 \begin{verbatim}
 SELECT `a_name` , `rim_diameter_min` , `rim_diameter_max` , `manufacture`
@@ -186,7 +190,7 @@ ORDER BY `a_name` ASC
 LIMIT 0 , 100
 \end{verbatim}
 
-To do that, we select type of amphorae, maximum and minimum diameter and manufacture columns from the general table. We only want to select Dressel types so we use HACERLO to select all the Dressel on the database. The database will be ordered by names with the command order by ascending order. The limit must be until 100 to select all the amphorae as possible (fig \ref{query5})
+To do that, we select the type of amphorae, maximum and minimum diameter and manufacture columns from the general table. We only want to select Dressel types so we use LIKE \$Dressel\$ to select only the Dressel types in the database. The database will be ordered by names with the command ORDER BY and with ascending order. The limit must be until 100 to select all the amphorae as possible (fig. \ref{query5})
 
 \begin{figure}[hdp]
 \centering
@@ -197,11 +201,11 @@ To do that, we select type of amphorae, maximum and minimum diameter and manufac
 
 \section{R programming language exercises}
 
-We explore the database produced by MySQL with R program. Thus, we have used R programming language in the command line in order to analyse the data. However, R Studio was not used in this exercise. 
+We explored the database produced by MySQL with R program. Thus, we have used R programming language in the command line in order to analyse the data. However, R Studio was not used in this exercise. 
 
 \subsection{Calculate the mean with R program}
 
-We want to calculate the mean of maximum and minimum diameter of the amphorae to know the likelihood of the diameters. 
+We want to calculate the mean of maximum and minimum diameter of the amphorae to know the differences of the diameters. ALARGAR
 
 We use the following code with R to calculate the mean maximum and minimum diameter
 
@@ -217,7 +221,7 @@ mean (project)
 [1] 10.95
 \end{verbatim}
 
-We also want to calculate the frequency of maximum diameter in our database to know which measurement of diameter is more frequent in our database. 
+We also wanted to calculate the frequency of maximum diameter in our database to know which measurement of diameter is more frequent in our database. 
 
 We perform with the following code
 
@@ -230,7 +234,7 @@ We create an histogram with the frequency of the maximum diameter. We perform th
 
 \begin{figure}[hdp]
 \centering
-\includegraphics[scale=0.30]{histomax.png}
+\includegraphics[scale=0.40]{histomax.png}
 \label{histomax}
 \caption{Histogram with the frequency of maximum diameter}
 \end{figure} 
@@ -243,11 +247,11 @@ boxplot(project$rim_diameter_min, main= "Frecuency of minimum diameter")
 
 \end{verbatim}
 
-We use the boxplot graphic to visualize the frequency of minimum diameter (fig \ref{boxmin})
+We use the boxplot graphic to visualize the frequency of minimum diameter (fig. \ref{boxmin})
 
 \begin{figure}[hdp]
 \centering
-\includegraphics[scale=0.30]{boxplotmin.png}
+\includegraphics[scale=0.50]{boxplotmin.png}
 \label{boxmin}
 \caption{Boxplot with the frequency of minimum diameter}
 \end{figure} 
@@ -257,37 +261,36 @@ We use the boxplot graphic to visualize the frequency of minimum diameter (fig \
 
 \subsubsection{qplot}
 
-We use the graphing package qplot to plot the results of diameter with the pottery workshops to know if there are difference among them (fig \ref{qplot}). We also use the color scale to differentiate the pottery workshops 
+We used the graphing package qplot to plot the results of diameter with the pottery workshops to know if there are differences among them (fig. \ref{qplot}). We also performed the color scale to differentiate the pottery workshops 
 
 \begin{verbatim}
 qplot(x= rim_diameter_max, y= rim_diameter_min, data= project, 
 main= "Frecuency", color= manufacture) 
 \end{verbatim}
 
-
 \begin{figure}[hdp]
 \centering
-\includegraphics[scale=0.45]{qplotminmax.png}
+\includegraphics[scale=0.50]{qplotminmax.png}
 \label{qplot}
 \caption{Using qplot graphing package}
 \end{figure}
 
 
+
 \subsubsection{ggplot2}
 
-We want to see the diameter differences among pottery workshops ("manufacture") and type of amphorae. 
+We wanted to see the diameter differences among pottery workshops ("manufacture") and type of amphorae. 
 
-We have to install the package ggplot2 before performing the data to use it as graphing library 
+We had to install the package ggplot2 before performing the data to use it as graphing library 
 
 \begin{verbatim}
 install.package ("ggplot2")
 library (gglot2)
 \end{verbatim}
 
-
 Then, we use the following code: 
 
-We are going to select different types of pottery workshops such as Cdiz CAMBIAR fabric, Tunisian fabric, Dressel 20 fabric and Dressel 24 fabric because we want to know the differences in the production
+We are going to select different types of pottery workshops such as C\'adiz fabric, Tunisian fabric, Dressel 20 fabric and Dressel 24 fabric because we want to know the differences in the production
 
 \begin{verbatim}
 myData= subset(project, manufacture  %in% c("Cdiz fabric", 
@@ -295,34 +298,36 @@ myData= subset(project, manufacture  %in% c("Cdiz fabric",
 
 \end{verbatim}
 
-We select from our database the type of amphorae and the pottery workshops ("manufacture") and we plot the results (fig. \ref{ggplotex})
+We select from our database the type of amphorae and the pottery workshops ("manufacture") and we plot the results 
 
 \begin{verbatim}
 ggplot(myData, aes(x=rim_diameter_max, y=rim_diameter_min, colour= manufacture)) 
 + geom_point() + facet_wrap(~a_name)
 \end{verbatim}
 
+We divided the different amphorae types to see the differences among diameter related with the pottery workshops (manufacture in the picture fig. \ref{ggplotex})
+
 
 \begin{figure}[hdp]
 \centering
-\includegraphics[scale=0.30]{ggplot2ex.png}
+\includegraphics[scale=0.45]{ggplot2ex.png}
 \label{ggplotex}
 \caption{Using ggplot graphics}
 \end{figure}
 
 
-\section{Ontology section}
+\section{Mapping the data. Ontological section}
 
 \subsection{CIDOC-CRM exercises}
 
-We want to develop the ontological process based on our data. We used the following ontological entities from CIDOC-CRM, a semantic framework, to define our data  (fig. \ref{sparex})
+We want to develop the ontological process based on the pottery production. We used the following ontological entities from CIDOC-CRM, a semantic framework used in cultural heritage, to define our data (fig. \ref{sparex}). Then we represented our result in a graphic with the schema mapping. 
 
 \begin{itemize}
 \item[-] \textbf{E.55 Type} (because we have represented a pottery database)
 \item[-] \textbf{E.57 Material} (represented by amphorae)
 \item[-] \textbf{P.108 was produced by} (represented by potters)
 \item[-] \textbf{E.12 Production} (pottery workshops)
-\item[-] \textbf{P.31 Has modified by} (modified by potters)
+\item[-] \textbf{P.31 Has modified by} (made and modified by potters)
 \item[-] \textbf{P.14 Carry out by} (represented by potters and workshops)
 \item[-] \textbf{E.24 Physical made man things} (represented by potters)
 \item[-] \textbf{E.39 Actor} (represented by potters who make pottery)
@@ -341,7 +346,7 @@ We want to develop the ontological process based on our data. We used the follow
 
 \section{Licenses and data}
 
-We have selected for our data the licence created by Creative Common. In our case, we believe in the free distribution in open data so we chose the licence CC BY-SA. This kind of license allows to modify, develop and use the data, even with commercial purposes. This license also allow to use new creations under the identical terms and indicate if changes were made in our data. (fig. \ref{licence})
+We have selected for our data the licence created by Creative Common. In our case, we believe in the free distribution of open data so we chose the licence CC BY-SA. This kind of license allows to modify, develop and use the data, even with commercial purposes. This license also allows to use new creations under the identical terms and indicate if changes were made in our data. (fig. \ref{licence})
 
 We think that it could be a good licence for our data because it allows to share our data for free. 
 
@@ -353,16 +358,18 @@ We think that it could be a good licence for our data because it allows to share
 \end{figure}
 
 
-\section{Analize data on Qgis}
+\section{Analize data on QGIS}
 
-\subsection{Open Refine}
+\subsection{Performing the data with Open Refine}
 
-We use a .csv file to transform and create geocalization.
+We created a new dataset to transform with Open Refine and geolocalize the results with QGIS. We use the data from the pottery workshops of \emph{Baetica} (currently Andalusia), ancient province within Roman Empire. In particular, We collected in the database the workshops of amphorae of olive oil. This commerce was particularly important due to the high demand of olive oil in the Roman Empire. As result, a huge network of pottery workshops were created to satisfy this demand. 
+
+As a first step, we perform our data with Open Refine
 
 \begin{itemize}
 \item[-] We open our data on Open Refine server
-\item[-] We select the column where we want to edit. In the column, we select Edit Column and the option Add column by fetching URLs for the geocalization
-\item[-]We add in expression option (fig. \ref{openrefine1}) 
+\item[-] We select the column where we want to edit. In the column, we select Edit Column and the option Add column by fetching URLs for the geolocalization
+\item[-]We add in expression option the following code (fig. \ref{openrefine1}) 
 \begin{verbatim}
 "http://maps.google.com/maps/api/geocode/json?sensor=false&add
 ress=" + escape(value, "url")
@@ -375,7 +382,7 @@ ress=" + escape(value, "url")
 \caption{Add geolocalization on Open Refine}
 \end{figure}
 
-\item[-] When the file finishes to loading,  we select Edit cells and Transform. We write the next code to transform in latitude and longitude (fig. \ref{openrefine2})
+\item[-] When the file finishes loading,  we select Edit cells and Transform. We write the next code to transform in latitude and longitude (fig. \ref{openrefine2})
 \begin{verbatim}
 with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 " + pair.lng)
@@ -387,7 +394,7 @@ with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 \label{openrefine2}
 \caption{Transform the data in latitude and longitude}
 \end{figure}
-\item[-] We select edit column and the option Split into several column to separate in two different column (fig. \ref{openrefine3})
+\item[-] We select edit column and the option Split into several column to separate into two different columns (fig. \ref{openrefine3})
 
 \begin{figure}[hdp]
 \centering
@@ -396,15 +403,16 @@ with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 \caption{Transform the data in latitude and longitude}
 \end{figure}
 
-\item[-] We export as csv file 
+\item[-] We export the results as csv file 
 \end{itemize}
 
 
 \subsection{QGIS}
 
-We use the database modified by Open Refine to produce a spatial visualization on QGIS. We perform the data with QGIS version 2.0.1 Dufour on Linux Mint. 
+We use the database performed by Open Refine to produce a spatial visualization on QGIS. We had to modify our dataset because some pottery workshops did not detect real coordinates. These pottery workshops were deleted and we just include the pottery workshops correctly geolocalized. Ultimately, our data were performed with QGIS version 2.0.1 Dufour on Linux Mint. 
+\\
 
-We follow the step below:
+We follow the steps below:
 \begin{itemize}
 \item[-] We choose in Layer option Add Delimiter Tex Layer to attach the csv file. You also can do it in the Toolbars on the left (fig. \ref{gismap2})
 \begin{figure}[hdp]
@@ -413,7 +421,7 @@ We follow the step below:
 \label{gismap2}
 \caption{Option (in red) to attach the document file}
 \end{figure}
-\item[-] We attach the file that we want to use it and the format. In geometrical definition option we have to be sure for choosing the corrected latitude and longitude (fig. \ref{gismap3})
+\item[-] We attach the file that we want to use it and the format. In geometrical definition option we have to be sure for choosing the accurate latitude and longitude (fig. \ref{gismap3})
 
 \begin{figure}[hdp]
 \centering
@@ -422,21 +430,21 @@ We follow the step below:
 \caption{Option of geometry definition and coordinates}
 \end{figure}
 
-\item[-] We need to map our result. So in the plugins option, we have to select Manage and install plugins and get more to install Open Layers. Open Layers is a plugin library to show and manipulate maps from different application on internet. In Linux, this API has to be installed thought Python. So we have to install first a open layer package on Python (fig. \ref{gismap4})
+\item[-] We need to map our result. So we have to select Manage in the plugins option and install plugins and "get more" to install Open Layers. Open Layers is a plugin library to show and manipulate maps from different application on internet. In Linux, this API has to be installed thought Python. So we have to install first OpenLayer plugin on Python (fig. \ref{gismap4})
 
 \begin{figure}[hdp]
 \centering
 \includegraphics[scale=0.50]{gismap4.png}
 \label{gismap4}
-\caption{Option of geometry definition and coordinates}
+\caption{Install and select OpenLayers Plugin}
 \end{figure}
 
-\item[-] Once installed, we choose the most accurate map server to geocalize our data. In our case, we chose Open Street Maps Layer. 
-\item[-] We map the database (fig. \ref{gismap})
+\item[-] Once installed, we choose the most accurate map server to geolocalize our results. In our case, we chose Open Street Maps Layer. 
+\item[-] We map the database. Our result we can see a homogeneous dispersion of the pottery workshops. This dispersion concur with necessity to build the workshops next to rivers in order to pick up clay from the rivers and make pottery artifacts.   (fig. \ref{gismap})
 
 \begin{figure}[hdp]
-\centering
-\includegraphics[scale=0.50]{gismap.png}
+  \centering
+\includegraphics[scale=0.30]{gismap.png}
 \label{gismap}
 \caption{Mapping of the database}
 \end{figure}
@@ -444,6 +452,10 @@ We follow the step below:
 \end{itemize}
 
 \subsection{Discussion and Conclusion}
+
+It is a exploration of data so our results are not finished yet. 
+
+
 
 
 
