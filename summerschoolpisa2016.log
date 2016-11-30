@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.2)  29 NOV 2016 20:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.2)  30 NOV 2016 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,7 +456,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <picture1.png, id=1, 786.137pt x 700.46307pt>
 File: picture1.png Graphic file (type png)
  <use picture1.png>
-Package pdftex.def Info: picture1.png used on input line 24.
+Package pdftex.def Info: picture1.png used on input line 23.
 (pdftex.def)             Requested size: 235.84291pt x 210.14053pt.
  [1
 
@@ -465,34 +465,34 @@ Package pdftex.def Info: picture1.png used on input line 24.
 <picture2.png, id=16, 1346.631pt x 707.61066pt>
 File: picture2.png Graphic file (type png)
  <use picture2.png>
-Package pdftex.def Info: picture2.png used on input line 90.
+Package pdftex.def Info: picture2.png used on input line 89.
 (pdftex.def)             Requested size: 336.65692pt x 176.90222pt.
  [3]
 <output_query1.png, id=20, 1134.639pt x 460.62198pt>
 File: output_query1.png Graphic file (type png)
  <use output_query1.png>
-Package pdftex.def Info: output_query1.png used on input line 115.
+Package pdftex.def Info: output_query1.png used on input line 114.
 (pdftex.def)             Requested size: 340.39433pt x 138.18765pt.
 
 [4 <./picture2.png (PNG copy)> <./output_query1.png>]
 <query2.png, id=25, 1132.23pt x 465.38704pt>
 File: query2.png Graphic file (type png)
  <use query2.png>
-Package pdftex.def Info: query2.png used on input line 137.
+Package pdftex.def Info: query2.png used on input line 135.
 (pdftex.def)             Requested size: 339.67162pt x 139.61719pt.
  [5 <./query2.png (PNG copy)>] <query3.png, id=30, 1137.851pt x 427.26659pt>
 File: query3.png Graphic file (type png)
  <use query3.png>
-Package pdftex.def Info: query3.png used on input line 160.
+Package pdftex.def Info: query3.png used on input line 158.
 (pdftex.def)             Requested size: 341.35793pt x 128.18095pt.
 
 <query4.png, id=31, 1139.457pt x 512.24341pt>
 File: query4.png Graphic file (type png)
  <use query4.png>
-Package pdftex.def Info: query4.png used on input line 182.
+Package pdftex.def Info: query4.png used on input line 180.
 (pdftex.def)             Requested size: 341.83974pt x 153.67421pt.
  [6 <./query3.png> <./query4.png>]
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 198--198
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 196--196
 []\OT1/cmtt/m/n/10 SELECT `a_name` , `rim_diameter_min` , `rim_diameter_max` , 
 `manufacture`[] 
  []
@@ -500,43 +500,47 @@ Overfull \hbox (38.24666pt too wide) in paragraph at lines 198--198
 <query5.png, id=35, 1132.23pt x 510.65506pt>
 File: query5.png Graphic file (type png)
  <use query5.png>
-Package pdftex.def Info: query5.png used on input line 204.
+Package pdftex.def Info: query5.png used on input line 202.
 (pdftex.def)             Requested size: 339.67162pt x 153.1977pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-[7 <./query5.png (PNG copy)>] <histomax.png, id=40, 481.8pt x 481.8pt>
-File: histomax.png Graphic file (type png)
+[7 <./query5.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
-<use histomax.png>
-Package pdftex.def Info: histomax.png used on input line 246.
+ []
+
+<histomax.png, id=40, 481.8pt x 481.8pt>
+File: histomax.png Graphic file (type png)
+ <use histomax.png>
+Package pdftex.def Info: histomax.png used on input line 244.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
  [8 <./histomax.png (PNG copy)>]
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 259--259
-[]\OT1/cmtt/m/n/10 boxplot(project$rim_diameter_min, main= "Frecuency of minimu
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 257--257
+[]\OT1/cmtt/m/n/10 boxplot(project$rim_diameter_min, main= "Frequency of minimu
 m diameter")[] 
  []
 
 <boxplotmin.png, id=44, 481.8pt x 481.8pt>
 File: boxplotmin.png Graphic file (type png)
  <use boxplotmin.png>
-Package pdftex.def Info: boxplotmin.png used on input line 265.
+Package pdftex.def Info: boxplotmin.png used on input line 263.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
  [9 <./boxplotmin.png (PNG copy)>] <qplotminmax.png, id=48, 481.8pt x 481.8pt>
 File: qplotminmax.png Graphic file (type png)
 
 <use qplotminmax.png>
-Package pdftex.def Info: qplotminmax.png used on input line 287.
+Package pdftex.def Info: qplotminmax.png used on input line 285.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
 
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 317--317
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 315--315
 []\OT1/cmtt/m/n/10 ggplot(myData, aes(x=rim_diameter_max, y=rim_diameter_min, c
 olour= manufacture))[] 
  []
@@ -545,10 +549,10 @@ olour= manufacture))[]
 <ggplot2ex.png, id=52, 972.433pt x 653.6067pt>
 File: ggplot2ex.png Graphic file (type png)
  <use ggplot2ex.png>
-Package pdftex.def Info: ggplot2ex.png used on input line 324.
+Package pdftex.def Info: ggplot2ex.png used on input line 322.
 (pdftex.def)             Requested size: 388.96631pt x 261.43805pt.
 
-Overfull \hbox (43.96631pt too wide) in paragraph at lines 324--325
+Overfull \hbox (43.96631pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
@@ -556,10 +560,10 @@ Overfull \hbox (43.96631pt too wide) in paragraph at lines 324--325
 File: sparex.png Graphic file (type png)
 
 <use sparex.png>
-Package pdftex.def Info: sparex.png used on input line 352.
+Package pdftex.def Info: sparex.png used on input line 350.
 (pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
 
-Overfull \hbox (40.43317pt too wide) in paragraph at lines 352--353
+Overfull \hbox (40.43317pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
@@ -567,10 +571,10 @@ Overfull \hbox (40.43317pt too wide) in paragraph at lines 352--353
 File: licence.png Graphic file (type png)
 
 <use licence.png>
-Package pdftex.def Info: licence.png used on input line 369.
+Package pdftex.def Info: licence.png used on input line 367.
 (pdftex.def)             Requested size: 301.11201pt x 106.14198pt.
  [13 <./licence.png>]
-Overfull \hbox (5.4972pt too wide) in paragraph at lines 391--391
+Overfull \hbox (5.4972pt too wide) in paragraph at lines 389--389
  []\OT1/cmtt/m/n/10 "http://maps.google.com/maps/api/geocode/json?sensor=false&
 add[] 
  []
@@ -578,10 +582,10 @@ add[]
 <openrefine1.png, id=68, 562.903pt x 448.70934pt>
 File: openrefine1.png Graphic file (type png)
  <use openrefine1.png>
-Package pdftex.def Info: openrefine1.png used on input line 395.
+Package pdftex.def Info: openrefine1.png used on input line 393.
 (pdftex.def)             Requested size: 168.8722pt x 134.61383pt.
 
-Overfull \hbox (52.74678pt too wide) in paragraph at lines 404--404
+Overfull \hbox (52.74678pt too wide) in paragraph at lines 402--402
  []\OT1/cmtt/m/n/10 with(value.parseJson().results[0].geometry.location, pair, 
 pair.lat +",[] 
  []
@@ -589,16 +593,16 @@ pair.lat +",[]
 <openrefine2.png, id=69, 563.706pt x 425.67824pt>
 File: openrefine2.png Graphic file (type png)
  <use openrefine2.png>
-Package pdftex.def Info: openrefine2.png used on input line 408.
+Package pdftex.def Info: openrefine2.png used on input line 406.
 (pdftex.def)             Requested size: 169.1131pt x 127.70445pt.
 
 <openrefine3.png, id=70, 378.213pt x 279.5499pt>
 File: openrefine3.png Graphic file (type png)
  <use openrefine3.png>
-Package pdftex.def Info: openrefine3.png used on input line 418.
+Package pdftex.def Info: openrefine3.png used on input line 416.
 (pdftex.def)             Requested size: 189.10603pt x 139.7746pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
 
@@ -606,27 +610,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--431
 <gismap2.png, id=74, 167.024pt x 349.43736pt>
 File: gismap2.png Graphic file (type png)
  <use gismap2.png>
-Package pdftex.def Info: gismap2.png used on input line 437.
+Package pdftex.def Info: gismap2.png used on input line 435.
 (pdftex.def)             Requested size: 66.80841pt x 139.77246pt.
 
 <gismap3.png, id=75, 541.222pt x 403.44131pt>
 File: gismap3.png Graphic file (type png)
  <use gismap3.png>
-Package pdftex.def Info: gismap3.png used on input line 445.
+Package pdftex.def Info: gismap3.png used on input line 443.
 (pdftex.def)             Requested size: 216.48495pt x 161.37366pt.
 
 <gismap4.png, id=76, 656.854pt x 471.74043pt>
 File: gismap4.png Graphic file (type png)
  <use gismap4.png>
-Package pdftex.def Info: gismap4.png used on input line 454.
+Package pdftex.def Info: gismap4.png used on input line 452.
 (pdftex.def)             Requested size: 197.05771pt x 141.52321pt.
  [15 <./openrefine3.png> <./gismap2.png (PNG copy)>] [16 <./gismap3.png (PNG co
 py)> <./gismap4.png (PNG copy)>] <gismap.png, id=83, 1346.631pt x 764.79132pt>
 File: gismap.png Graphic file (type png)
 
 <use gismap.png>
-Package pdftex.def Info: gismap.png used on input line 468.
-(pdftex.def)             Requested size: 201.98593pt x 114.71375pt.
+Package pdftex.def Info: gismap.png used on input line 466.
+(pdftex.def)             Requested size: 269.32143pt x 152.95555pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
@@ -637,12 +646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-
- []
-
-[17 <./gismap.png>] (./summerschoolpisa2016.aux) ) 
+[17 <./gismap.png>] [18] (./summerschoolpisa2016.aux) ) 
 Here is how much of TeX's memory you used:
  4051 strings out of 493304
  53974 string characters out of 6139872
@@ -651,18 +655,19 @@ Here is how much of TeX's memory you used:
  12017 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,1040b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on summerschoolpisa2016.pdf (17 pages, 2361223 bytes).
+</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on summerschoolpisa2016.pdf (18 pages, 2362238 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

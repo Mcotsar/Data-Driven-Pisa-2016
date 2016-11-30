@@ -14,10 +14,9 @@
 
 \section{Introduction}
 
-
 \subsection{Dataset}
 
-We analized a dataset with amphorae from different places in order to understand the evolution of the amphorae made in different pottery workshops. Our dataset was collected from the project \emph{Roman Amphorae: a digital recourse} within Archaeology data service at University of Southampton (fig.\ref{picwebarch})
+We analized a dataset with amphorae from different places in order to understand the evolution of the amphorae made in different pottery workshops. Our dataset was collected and prepared by the project \emph{Roman Amphorae: a digital recourse} within Archaeology data service at University of Southampton (fig.\ref{picwebarch}).
 
 \begin{figure}[htp]
 	\centering
@@ -26,7 +25,7 @@ We analized a dataset with amphorae from different places in order to understand
 \label{picwebarch}
 \end{figure} 
 
-This database is a catalogue of around 375 amphorae of different types and divided in different places and chronology during the Roman Empire. It was taken some characteristics on the dataset as the different parts of the shape of amphorae. 
+This database is a catalogue of around 375 amphorae of different types and divided in different places and chronologies during the Roman Empire. It was taken some characteristics on the dataset as the different parts of the shape of amphorae. 
 
 \newpage
 
@@ -74,8 +73,8 @@ Our dataset was divided in 24 columns based on the web page.
 The aim of this project can be divided in different objectives: 
 
 \begin{itemize}
-\item[-] A simple exploration of our dataset. We explore our dataset to seek the kind of information that we are going to use. So we will need to fit our database to each exercises. 
-\item[-] In particular, we want to understand the differences among workshops from different places. We can detect measurable differences in the amphorae production over time as the result of different pattern of production. 
+\item[-] The report was focused to a simple exploration of our dataset. Our dataset will be used to seek different sets of information that we are going to use. So It will be necessary to fit our database to each exercises. 
+\item[-] In particular, we want to understand the differences among workshops from different places. We could detect measurement differences in the amphorae production over time as the result of different pattern of production. 
 \item[-] The exercises will be different adapted to each section. For instance, we use a different database on MySQL and R commander than on QGIS. On the one hand, specifically on R program, we wanted to focus this exercise in \textit{Dressel} production. For that, we wanted to use amphorae measurements to analyze the different production. On the other hand, we created a new amphorae workshop dataset from Andalusia (south Spain) adapted to the QGIS exercise. 
 
 \end{itemize}
@@ -98,7 +97,7 @@ We perform some exercises with mySQL and query the dataset.
 
 \subsubsection{Exercise 1}
 
-We want to know how many rim shapes are "everted". For that, we used the following code
+We want to search how many rim shapes are "everted". For that, we used the following code
 
 \begin{verbatim}
 SELECT *
@@ -108,7 +107,7 @@ LIMIT 0 , 30
 \end{verbatim}
 
 
-We selected all from our dataset but we wanted specifically to select from the column rim type the types which are everted. We also specified a limit by 30 (fig.\ref{query1})
+We selected all the dataset but we wanted specifically to select from the column rim type the types which are everted. We also specified a limit by 30 (fig.\ref{query1})
 
 \begin{figure}[htp]
      \centering
@@ -117,7 +116,6 @@ We selected all from our dataset but we wanted specifically to select from the c
 \label{query1}
 
 \end{figure} 
-
 
 
 \subsubsection{Exercise 2}
@@ -130,7 +128,7 @@ FROM `TBL_NAME`
 WHERE `body_type` = "cylindrical"
 \end{verbatim}
 
-We selected the column $a\_name$ from the general table on the dataset. We also selected from the body type column which amphorae are cylindrical (fig. \ref{query2}). 
+We selected the column $a\_name$ from the general table on the dataset. We also selected from the body type column which amphorae are cylindrical (fig. \ref{query2}). If we want to include "cylindrical" in the results we have to add in SELECT body\_type.
 
 \begin{figure}[htp]
 \centering
@@ -197,7 +195,7 @@ ORDER BY `a_name` ASC
 LIMIT 0 , 100
 \end{verbatim}
 
-To do that, we select the type of amphorae, maximum and minimum diameter and manufacture columns from the general table. We only want to select Dressel types so we use LIKE \$Dressel\$ to choose only the Dressel types in the database. The database will be ordered by names with the command ORDER BY and with ascending order. The limit must be until 100 to select all the amphorae as possible (fig. \ref{query5})
+To do that, we select the type of amphorae, maximum and minimum diameter and manufacture columns from the table. We only want to select Dressel types so we use LIKE \$Dressel\$ to choose only the Dressel types in the database. The database was ordered by names with the command ORDER BY and with ascending order. The limit must be until 100 to select all the amphorae as possible (fig. \ref{query5})
 
 \begin{figure}[htp]
 \centering
@@ -208,7 +206,7 @@ To do that, we select the type of amphorae, maximum and minimum diameter and man
 
 \section{R programming language exercises}
 
-We explored the database produced by MySQL with R program. Thus, we have used R programming language in the command line in order to analyse the data. However, R Studio was not used in any exercise. 
+We want to explore the database produced by MySQL with R program. Thus, we have used R programming language in the command line in order to analyse the data. However, R Studio was not used in any exercise. 
 
 \subsection{Calculate the mean with R program}
 
@@ -230,7 +228,7 @@ mean (project)
 [1] 10.95
 \end{verbatim}
 
-We also wanted to calculate the frequency of maximum diameter in our database to know which measurement of diameter is more frequent in our database. 
+We also wanted to calculate the frequency of maximum diameter in our database to know which measurement of diameter is more frequent in our database. \\
 
 We perform with the following code
 
@@ -254,7 +252,7 @@ Likewise, the same code was also used to calculate the frequency of minimum diam
 
 \begin{verbatim}
 
-boxplot(project$rim_diameter_min, main= "Frecuency of minimum diameter")
+boxplot(project$rim_diameter_min, main= "Frequency of minimum diameter")
 
 \end{verbatim}
 
@@ -316,13 +314,13 @@ ggplot(myData, aes(x=rim_diameter_max, y=rim_diameter_min, colour= manufacture))
 + geom_point() + facet_wrap(~a_name)
 \end{verbatim}
 
-We divided the different amphorae types to see the differences among diameter related with the pottery workshops (manufacture in the picture fig. \ref{ggplotex})
+We divided the different amphorae types to visualize the differences among diameter related with the pottery workshops ("manufacture" in the picture fig. \ref{ggplotex})
 
 
 \begin{figure}[htp]
 \centering
 \includegraphics[scale=0.40]{ggplot2ex.png}
-\caption{Using ggplot graphics}
+\caption{Using ggplot2 graphics}
 \label{ggplotex}
 \end{figure}
 
@@ -331,7 +329,7 @@ We divided the different amphorae types to see the differences among diameter re
 
 \subsection{CIDOC-CRM exercises}
 
-We want to develop the ontological process based on the pottery production. We created the following ontological entities from CIDOC-CRM, a semantic framework used in cultural heritage, to define our data (fig. \ref{sparex}). Then we represented our result in a graphic with the schema mapping. 
+We wanted to develop an ontological process based on the pottery production. We created the following ontological entities from CIDOC-CRM, a semantic framework used in cultural heritage, to define our data (fig. \ref{sparex}). Then we represented our result in a graphic with the schema mapping. 
 
 \begin{itemize}
 \item[-] \textbf{E.55 Type} (because we have represented a pottery database)
@@ -376,7 +374,7 @@ We think that it could be a useful licence for our data because it allows to sha
 
 \subsection{Performing the data with Open Refine}
 
-We created a new dataset to transform with Open Refine and geolocalize the results with QGIS. We used the data from the pottery workshops of \emph{Baetica} (currently Andalusia), ancient province within Roman Empire. In particular, we collected in the database the workshops of amphorae of olive oil. This commerce was particularly important due to the high demand of olive oil in the Roman Empire. As result, a huge network of pottery workshops was created to satisfy this demand. 
+We created a new dataset to modify with Open Refine and geolocalize the results with QGIS. We used the data from the pottery workshops of \emph{Baetica} (currently Andalusia), ancient province within Roman Empire. In particular, we collected in the database the workshops of amphorae of olive oil. This commerce was particularly important due to the high demand of olive oil in the Roman Empire. As result, a huge network of pottery workshops was created to satisfy this demand. 
 
 \newpage
 As a first step, we perform our data with Open Refine:
@@ -397,7 +395,7 @@ ress=" + escape(value, "url")
 \label{openrefine1}
 \end{figure}
 
-\item[-] When the file finishes loading,  we select Edit cells and Transform. We write the next code to transform in latitude and longitude (fig. \ref{openrefine2})
+\item[-] When the file finishes loading, we select Edit cells and Transform. We write the next code to transform in latitude and longitude (fig. \ref{openrefine2})
 \begin{verbatim}
 with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 " + pair.lng)
@@ -411,7 +409,7 @@ with(value.parseJson().results[0].geometry.location, pair, pair.lat +",
 \end{figure}
 
 
-\item[-] We select edit column and the option Split into several column to separate into two different columns (fig. \ref{openrefine3})
+\item[-] We select edit column and the option Split into several column to divide into two different columns (fig. \ref{openrefine3})
 
 \begin{figure}[htp]
 \centering
@@ -465,7 +463,7 @@ We follow these steps below:
 
 \begin{figure}[htp]
   \centering
-\includegraphics[scale=0.15]{gismap.png}
+\includegraphics[scale=0.20]{gismap.png}
 \caption{Mapping of the database}
 \label{gismap}
 \end{figure}
@@ -475,7 +473,7 @@ We follow these steps below:
 \subsection{Discussion and Conclusion}
 
 
-We wanted to do a simple exploration of data so our results are not finished yet. In the case of mySQL exercises, we wanted to explore the data from our dataset. \\
+We wanted to do a simple exploration of data but our results are not finished yet. In the case of mySQL exercises, we wanted to explore the data from our dataset. \\
 
 We practised some codes in order to get data. We finally created a new dataset with dressel type to study the evolution of the production. The data obtained with R program allowed to identify measurable differences in the pottery workshops. For instance, the dressel types which were made in the same pottery workshops such as Dressel 7, Dressel 8, Dressel 9, Dressel 10, Dressel 11 shared the same measures in the diameter than the rest. By contrast, the types Dressel 20 and Dressel 23 did not share the same measures in spite of belonging to the same pottery workshops. \\
 
@@ -483,10 +481,20 @@ Otherwise, we created a new dataset to be performed with QGIS. Firstly, we modif
 
 We have identified new useful features from our database however this results were done as a simple exploration of data. Anyway, here we have showed a simple baseline for the exploration of the production processes. In a future, we expect to develop this study more deeply. 
 
+\newpage
 
-\section{Apendix}
+\section{Appendix}
 
-We attached the files that we used to analyse the data. Here, 
+We attached the files that we used to analyse the data. Here, you can see the meaning of them
+
+\begin{itemize}
+\item[-]\textbf{amphoradatabasearchser.csv} (database extracted from the archaeology  Data Service at University of Southampton)
+\item[-]\textbf{mysqldressel.csv} (database extracted from the mysql exercise. 
+\item[-]\textbf{baeticaperformopenrefine.csv} (database created to be performed with Open Refine)
+\item[-]\textbf{baeticaworkshops.csv} (database created to be used with QGIS)
+\item[-]\textbf{exercisesR.r} (R exercises)
+
+\end{itemize} 
 
 
 
