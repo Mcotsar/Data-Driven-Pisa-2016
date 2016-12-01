@@ -1,0 +1,214 @@
+number,a_name,rim_type,shoulder_type,handles_profile,handle_section,neck_type,body_type,base_type,capacity,height_min,height_max,width_min,width_max,rim_diameter_min,rim_diameter_max,manufacture
+1,Africana 1 Piccolo,Everted,Rounded,Ring,Ovoid/Elliptical,Short/narrow,Cylindrical,Short hollow,35-40 litres,90,97,28,30,12,14,Tunisian fabric
+3,Africana 2A Grande,Beaded,Carinated,Ear-shaped,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,60-65 litres,94,105,41,44,13,15,Tunisian fabric
+4,Africana 2B Grande,,Carinated,Ear-shaped,Ridged,Cylindrical,Cylindrical,Knobbed,Unsure,109,110,41,43,12,13,Tunisian fabric
+5,Africana 2C Grande,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Knobbed,55-60 litres,107,121,25,38,11,13,Tunisian fabric
+6,Africana 2D Grande,Collar,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Knobbed,45-50 litres,109,117,30,37,11,13,Tunisian fabric
+7,Agora K109,Everted,Carinated,Ear-shaped,Grooved,Hourglass,Tapered,Short hollow,Unsure,0,0,0,0,0,0,
+8,Agora M254,Triangular,Carinated,Bowed,Round,Cylindrical,Globular,Ringed,15-20 litres,54,55,33,35,9,9,Agora M254 fabric
+9,Agora M273,Beaded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Piriform,Button,20-25 litres,0,0,37,38,11,13,Samos Cistern Type fabric
+10,Agora M54,Beaded,Carinated,Peaked,Bifid,None,Cylindrical,Spike/tapered,Unsure,74,90,25,32,0,0,Agora M54 fabric
+11,Almagro 50,Everted,Rounded,Curved,Ovoid/Elliptical,Short/narrow,Cylindrical,Short hollow,Unsure,76,88,22,22,14,14,Almagro 50 fabric
+13,Almagro 51A & B,Collar,Rounded,Ear-shaped,Ridged,Conical,Tapered,Spike/tapered,0-10 litres,60,94,22,33,9,11,Almagro 51 fabric
+15,Almagro 51C,Triangular,Rounded,Curved,Ridged,Hourglass,Tapered,Spike/tapered,25-30 litres,70,77,24,37,8,12,
+16,Almagro 54,Beaded,Rounded,Ring,Ridged,None,Cylindrical,Rounded,20-25 litres,40,83,25,27,10,11,Almagro 54 fabric
+18,Amphorae Saumure d'Espagne,Collar,Carinated,Curved,Ovoid/Elliptical,Broad/wide,Tapered,Spike/tapered,Unsure,0,0,0,0,0,0,
+20,Castrum Perti,Rounded,Rounded,Curved,Ovoid/Elliptical,Hourglass,Globular,Flat,20-25 litres,50,55,0,0,0,0,Castrum Perti fabric
+22,Aquincum 78,Collar,Rounded,Short vertical,Round,Conical,Cylindrical,Spike/tapered,Unsure,0,77,0,0,0,10,Aquincum fabric
+25,Augst 17,Beaded,Rounded,Curved,Bifid,Hourglass,Piriform,Flat,Unsure,0,0,0,0,0,0,Augst 17 fabric
+29,Augst 33,Triangular,None/smooth,Arched,Grooved,Cylindrical,Ovoid,Flat,40-45 litres,0,0,0,0,0,0,Augst 33 fabric
+30,Augst 34,Everted,Rounded,Arched,Grooved,Cylindrical,Ovoid,Flat,40-45 litres,0,0,0,0,0,0,
+31,Augst 35,Collar,Rounded,Long vertical,Ridged,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,0,0,0,0,0,Augst 35 fabric
+33,Augst 46,Beaded,Rounded,Bowed,Round,Broad/wide,Tapered,Rounded basal point,Unsure,0,0,0,0,0,0,
+34,Augst 47,Rounded,Rounded,Short vertical,Round,Cylindrical,Tapered,Pointed,Unsure,0,0,0,0,0,0,
+35,Ayla-Axum,Rounded,Rounded,Bowed,Ovoid/Elliptical,Broad/wide,Tapered,Button,0-10 litres,75,100,0,0,0,0,Ayla-Axum fabric
+36,Bailey Type A,Rounded,Carinated,Ear-shaped,Round,Cylindrical,Tapered,Pointed,Unsure,0,0,0,0,0,0,LRA 7 fabric
+37,Beirut 1,Triangular,Rounded,Curved,Ridged,Hourglass,Tapered,Pointed,Unsure,0,0,0,0,0,0,Beirut City fabric
+38,Beirut 3,Triangular,Rounded,Arched,Ridged,Hourglass,Tapered,Button,Unsure,0,0,0,0,8,12,Beirut City fabric
+39,Beirut 8,Rounded,Rounded,Arched,,Cylindrical,Tapered,Flat,Unsure,0,0,0,0,6,9,
+42,Beltrรกn 72,Triangular,None/smooth,Curved,Grooved,Broad/wide,Piriform,Short hollow,Unsure,76,88,22,22,14,14,
+43,Beltrรกn 2A,Triangular,None/smooth,Long vertical,Ovoid/Elliptical,Broad/wide,Piriform,Long hollow,Unsure,80,110,25,40,20,25,Cรกdiz fabric
+44,Beltrรกn 2B,Triangular,None/smooth,Long vertical,Ovoid/Elliptical,Hourglass,Piriform,Spike/tapered,Unsure,90,105,40,45,18,25,Cรกdiz fabric
+47,Dressel 8,Flaring,Rounded,Long vertical,Ovoid/Elliptical,Cylindrical,Globular,Spike/tapered,Unsure,80,90,35,40,18,22,Cรกdiz fabric
+50,Bรณnis 31/5,Collar,None/smooth,Short vertical,Round,Hourglass,Piriform,Pointed,Unsure,32,40,12,18,6,9,Bรณnis 31/5 fabric
+51,Brindisian amphora,Beaded,Rounded,Short vertical,Round,Cylindrical,Ovoid,Knobbed,Unsure,0,0,0,0,0,0,Brindisi amphora fabric
+52,Campanian almond-rim type,Beaded,Rounded,Long vertical,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,0,0,0,0,0,Campanian 'Black Sand' fabric
+53,Camulodunum 139,Beaded,Rounded,Long vertical,Round,Cylindrical,Ovoid,Flat,20-25 litres,0,0,0,0,9,11,Campanian 'Black Sand' fabric
+54,Camulodunum 176,Triangular,None/smooth,Short vertical,Ovoid/Elliptical,Broad/wide,Ovoid,Ringed,Unsure,0,0,0,0,0,0,Camulodunum 176 fabric
+56,Carrot amphora,Rounded,None/smooth,Ring,Round,Broad/wide,Tapered,Pointed,Unsure,0,0,0,0,0,0,Carrot amphora fabric
+58,Chalk 6,Triangular,Rounded,Long vertical,Ovoid/Elliptical,Cylindrical,Tapered,Spike/tapered,Unsure,0,0,0,0,0,0,Chalk 6 fabric
+59,Peacock & Williams 66,Collar,Rounded,Ring,Grooved,None,Cylindrical,Spike/tapered,Unsure,0,0,20,21,11,12,Peacock & Williams 66 fabric
+60,Crétoise 1,Collar,Rounded,Bowed,Round,Short/narrow,Cylindrical,Rounded basal point,Unsure,0,0,0,0,0,0,Crétoise 1 fabric
+61,Crétoise 2,Collar,Rounded,Arched,Bifid,Hourglass,Piriform,Rounded basal point,Unsure,0,0,0,0,0,0,Crétoise 2 fabric
+65,Dressel 10,Everted,Rounded,Long vertical,Ridged,Cylindrical,Ovoid,Long hollow,Unsure,75,85,29,40,18,22,Cรกdiz fabric
+66,Dressel 11,Flaring,Rounded,Long vertical,Ovoid/Elliptical,Hourglass,Piriform,Long hollow,Unsure,75,90,0,0,18,22,Cรกdiz fabric
+67,Dressel 12,Everted,Rounded,Long vertical,Ovoid/Elliptical,Hourglass,Ovoid,Spike/tapered,Unsure,103,105,25,30,16,18,Dressel 12 fabric
+68,Dressel 14,Beaded,Rounded,Long vertical,Ovoid/Elliptical,Broad/wide,Cylindrical,Long hollow,30-35 litres,90,110,27,33,16,22,Dressel 14 fabric
+69,Porto Recanati,Everted,Rounded,Curved,Ovoid/Elliptical,Hourglass,Ovoid,Knobbed,Unsure,87,90,32,38,12,16,Porto Recanati fabric
+72,Ramรณn 25,Rounded,Rounded,Short vertical,Ovoid/Elliptical,Cylindrical,Ovoid,Spike/tapered,Unsure,96,97,35,38,14,16,Ramรณn 25 fabric
+74,Rhodian Type,Rounded,Rounded,Peaked,Round,Cylindrical,Tapered,Spike/tapered,20-25 litres,96,97,23,24,14,15,
+76,Dressel 16,Rounded,Carinated,Peaked,Grooved,Hourglass,Cylindrical,Long hollow,Unsure,0,0,18,20,0,0,Dressel 16 fabric
+77,Dressel 17,Flaring,Rounded,Peaked,Ovoid/Elliptical,Cylindrical,Tapered,Knobbed,Unsure,124,126,24,29,18,22,
+80,Dressel 1B similis - Lyon,Collar,Carinated,Long vertical,Ridged,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,0,22,24,0,0,Lyon fabric
+83,Dressel 20,Rounded,None/smooth,Curved,Round,Short/narrow,Globular,Rounded basal point,70-75 litres,70,97,56,66,18,20,Dressel 20 fabric
+86,Dressel 21-22,Beaded,Rounded,Curved,Ovoid/Elliptical,Broad/wide,Cylindrical,Short hollow,Unsure,88,90,24,26,18,20,Dressel 21-22 fabric
+87,Dressel 23,Triangular,None/smooth,Ring,Ovoid/Elliptical,Broad/wide,Globular,Rounded basal point,Unsure,53,56,24,36,10,14,Dressel 20 fabric
+88,Dressel 24,Rounded,Carinated,Bowed,Ovoid/Elliptical,Hourglass,Globular,Pointed,Unsure,0,0,0,0,0,0,Dressel 24 fabric
+90,Dressel 2-4 Loire Basin,Beaded,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Spike/tapered,Unsure,84,98,28,31,11,15,Dressel 2-4 Loire Basin fabric
+91,Dressel 2-4 Almadrava,Collar,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Spike/tapered,Unsure,94,95,27,29,14,16,Almadrava fabric
+92,Dressel 2-4 Baetican,Beaded,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Spike/tapered,30-35 litres,0,0,0,0,0,0,Dressel 20 fabric
+94,Dressel 2-4 Catalan,Beaded,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Spike/tapered,30-35 litres,85,98,24,30,13,14,Pascual 1 red fabric
+95,Dressel 2-4 Cos,Beaded,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Pointed,25-30 litres,0,0,0,0,0,0,
+96,Dressel 2-4 Egyptian,Beaded,Carinated,Long vertical,Bifid,Hourglass,Cylindrical,Button,20-25 litres,120,138,26,27,13,14,Lake Mariout fabric
+101,Dressel 2-4 Lyon 2,Beaded,Carinated,Long vertical,Bifid,Cylindrical,Cylindrical,Spike/tapered,Unsure,86,91,28,31,12,13,Lyon fabric
+102,Dressel 2-4 Italian,Beaded,Carinated,Long vertical,Bifid,Hourglass,Cylindrical,Spike/tapered,20-25 litres,95,108,26,29,14,16,Campanian 'Black Sand' fabric
+104,Dressel 25,Beaded,Rounded,Ear-shaped,Round,Cylindrical,Globular,Rounded basal point,65-70 litres,74,75,41,47,12,15,Dressel 25 fabric
+106,Dressel 28,Pulley wheel,Rounded,Curved,Grooved,Cylindrical,Tapered,Flat,Unsure,0,0,0,0,0,0,Dressel 28 fabric
+107,Dressel 28 similis - Lyon,Pulley wheel,Rounded,Arched,Grooved,Conical,Globular,Ringed,Unsure,44,45,30,31,14,15,Lyon fabric
+108,Dressel 30 - Keay 1A,Collar,Rounded,Curved,Grooved,Hourglass,Tapered,Flared,20-25 litres,65,66,36,37,11,12,Dressel 30 fabric
+110,Dressel 35,Rounded,Rounded,Peaked,Round,Cylindrical,Ovoid,Pointed,Unsure,49,50,28,29,12,13,
+111,Dressel 43,Collar,Rounded,Peaked,Round,Cylindrical,Cylindrical,Rounded basal point,10-15 litres,50,67,15,25,6,9,Dressel 43 fabric
+112,Dressel 5,Rounded,Carinated,Peaked,Bifid,Cylindrical,Cylindrical,Spike/tapered,Unsure,101,107,26,31,12,13,
+113,Dressel 6A,Rounded,Carinated,Long vertical,Round,Cylindrical,Ovoid,Spike/tapered,Unsure,95,96,34,35,16,17,
+114,Dressel 6B,Rounded,None/smooth,Short vertical,Ovoid/Elliptical,Conical,Piriform,Knobbed,Unsure,85,95,34,37,15,16,Dressel 6B fabric
+115,Dressel 7,Collar,Rounded,Curved,Grooved,Cylindrical,Ovoid,Spike/tapered,Unsure,75,90,25,30,18,22,Cรกdiz fabric
+117,Ramรณn 41,Collar,Rounded,Curved,Ridged,Cylindrical,Ovoid,Long hollow,Unsure,83,84,33,34,18,19,
+119,Dressel 9,Flaring,Rounded,Ear-shaped,Ridged,Cylindrical,Piriform,Long hollow,Unsure,75,85,0,0,18,24,Cรกdiz fabric
+120,Dressel 9 & 10 similis - Lyon,Flaring,Rounded,Arched,Bifid,Cylindrical,Piriform,Long hollow,Unsure,85,87,37,39,15,17,Lyon fabric
+121,Dressel 20 similis - Oliva 3,Rounded,None/smooth,Curved,Round,Short/narrow,Globular,Rounded basal point,Unsure,0,0,0,0,0,0,Almadrava fabric
+126,Egloff 172,None,Rounded,Ring,Ovoid/Elliptical,Cylindrical,Tapered,Knobbed,20-25 litres,72,90,25,26,10,12,LRA 7 fabric
+129,Empoli,Rounded,Rounded,Curved,Grooved,Cylindrical,Tapered,Flat,Unsure,59,60,32,33,10,11,Empoli fabric
+130,Forlimpopoli,Rounded,Rounded,Long vertical,Ridged,Conical,Ovoid,Flat,Unsure,71,73,36,37,7,9,Forlimpopoli fabric
+132,Gauloise 12,Everted,None/smooth,Ring,Grooved,Short/narrow,Globular,Ringed,35-40 litres,24,50,0,0,7,18,Gauloise 12 fabric
+133,Gauloise 1,Collar,None/smooth,Curved,Grooved,Short/narrow,Globular,Ringed,25-30 litres,47,53,38,44,14,16,Gauloise fabric
+134,Gauloise 2,Collar,Rounded,Curved,Grooved,Conical,Globular,Ringed,25-30 litres,59,62,37,38,13,15,Gauloise 2 fabric
+135,Gauloise 3,Collar,Rounded,Curved,Grooved,Short/narrow,Tapered,Flat,25-30 litres,57,64,32,35,13,14,Gauloise 3 fabric
+136,Gauloise 4,Beaded,Rounded,Curved,Grooved,Short/narrow,Tapered,Ringed,Unsure,60,69,36,42,11,13,Gauloise fabric
+137,Gauloise 4 similis - Almadrava 3,Rounded,Rounded,Arched,Grooved,Short/narrow,Tapered,Flat,Unsure,60,61,41,42,12,13,Almadrava fabric
+138,Gauloise 1 similis in Verulamium White Ware,Flaring,None/smooth,Long vertical,Grooved,Hourglass,Ovoid,Ringed,Unsure,530,530,380,380,130,130,Gauloise 1 Verulamium White Ware fabric
+140,Gauloise 5,Flaring,Rounded,Curved,Grooved,Cylindrical,Tapered,Flat,25-30 litres,45,63,27,38,12,17,Gauloise fabric
+141,Greco-Italic,Triangular,Carinated,Long vertical,Ovoid/Elliptical,Cylindrical,Tapered,Spike/tapered,20-25 litres,82,83,40,41,20,21,Greco-Italic fabrics
+148,Haltern 70,Everted,Rounded,Curved,Grooved,Short/narrow,Cylindrical,Spike/tapered,30-35 litres,85,90,30,32,14,18,Haltern 70 fabric
+149,Haltern 70 similis - Verulamium 1908,Everted,None/smooth,Long vertical,Grooved,Hourglass,Cylindrical,Spike/tapered,Unsure,90,94,22,26,15,16,Dressel 20 fabric
+152,Haltern 70 similis - RhĂ´ne Valley,Everted,Rounded,Bowed,Grooved,Hourglass,Tapered,Spike/tapered,Unsure,98,99,24,25,13,14,Lyon fabric
+153,Hammamet 1,Flaring,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Long hollow,55-60 litres,105,115,33,37,16,18,Hammamet fabric
+154,Kapitän 2,Rounded,Rounded,Arched,Ovoid/Elliptical,Conical,Tapered,Long hollow,Unsure,75,77,0,0,6,7,Kapitän 2 fabric
+155,Kapitän 1,Rounded,Rounded,Long vertical,Round,Cylindrical,Tapered,Spike/tapered,Unsure,107,108,28,29,13,14,Kapitän 1 fabric
+160,Keay 51,Rounded,Rounded,Ring,Ovoid/Elliptical,Cylindrical,Piriform,Button,Unsure,76,83,33,37,11,11,Tunisian fabric
+161,Keay 52,Pulley wheel,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Ovoid,Flat,Unsure,49,50,24,24,9,9,Keay 52 fabric
+163,Keay 59,Flanged,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,95,95,35,35,14,15,Tunisian fabric
+164,Keay 55,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Cylindrical,Cylindrical,Button,65-70 litres,0,0,35,37,11,12,Tunisian fabric
+166,Keay 57,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,Unsure,105,107,38,40,11,14,Tunisian fabric
+167,"Keay 61 A, B & D",Everted,Rounded,Curved,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,85-90 litres,111,112,38,41,13,14,Tunisian fabric
+168,"Keay 62A, D & E",Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,60-65 litres,103,106,37,40,13,15,Tunisian fabric
+169,Sidi Jdidi 1,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,Unsure,123,125,56,58,15,15,Tunisian fabric
+175,Keay 78,Rounded,Rounded,Curved,Ovoid/Elliptical,Short/narrow,Cylindrical,Button,20-25 litres,85,90,0,22,0,14,Keay 78 fabric
+182,Keay 8A,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,0,0,0,14,15,Tunisian fabric
+191,Keay 40,Rounded,Rounded,Short vertical,Semi-circular,Hourglass,Cylindrical,Spike/tapered,Unsure,0,0,0,0,13,13,Tunisian fabric
+192,Keay 41,Triangular,Rounded,Ear-shaped,Ovoid/Elliptical,Short/narrow,Cylindrical,Button,Unsure,98,98,41,41,13,13,Keay 41 fabric
+196,Keay 47,Everted,Rounded,Short vertical,Ovoid/Elliptical,Short/narrow,Cylindrical,Spike/tapered,Unsure,88,88,36,36,11,12,
+208,Africana 3A,Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,25-30 litres,93,125,22,28,11,15,Tunisian fabric
+209,Keay 27,Everted,Rounded,Short vertical,Ovoid/Elliptical,Hourglass,Cylindrical,Knobbed,45-50 litres,110,120,28,31,12,13,Tunisian fabric
+215,Keay 34,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Cylindrical,Cylindrical,Knobbed,Unsure,124,130,0,0,15,15,Tunisian fabric
+216,Keay 39,Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Hourglass,Cylindrical,Spike/tapered,Unsure,0,0,0,0,12,13,Keay 39 fabric
+218,Keay 35A,Rounded,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Knobbed,Unsure,107,114,40,42,13,14,Tunisian fabric
+219,Keay 35B,Everted,Rounded,Curved,Ovoid/Elliptical,Conical,Cylindrical,Knobbed,45-50 litres,99,120,34,49,13,16,Tunisian fabric
+227,Kuzmanov 9,Everted,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Tapered,Pointed,10-15 litres,0,0,0,0,6,8,Kuzmanov 9
+228,Kuzmanov 15,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Tapered,Knobbed,0-10 litres,41,53,11,12,8,10,OpaiĹŁ E4 fabric
+229,Lamboglia 2,Collar,Carinated,Long vertical,Ovoid/Elliptical,Cylindrical,Ovoid,Rounded,Unsure,0,0,41,42,16,17,Dressel 6A fabric
+236,Late Roman Amphora 1,Rounded,Rounded,Curved,Round,Cylindrical,Cylindrical,Rounded,Unsure,50,58,30,31,9,11,LRA 1 fabric
+237,Late Roman amphora 13,Everted,Rounded,Curved,Ovoid/Elliptical,Conical,Ovoid,Rounded,Unsure,47,48,25,26,5,6,LRA 13 fabric
+239,Late Roman Amphora 2,Everted,Rounded,Bowed,Ovoid/Elliptical,Conical,Globular,Rounded basal point,40-45 litres,51,74,42,55,11,14,LRA 2 fabric
+240,Late Roman Amphora 3,Rounded,Rounded,Ear-shaped,Grooved,Conical,Tapered,Spike/tapered,Unsure,46,68,18,25,4,5,LRA 3 fabric
+243,Late Roman Amphora 7,Beaded,Carinated,Curved,Round,Cylindrical,Tapered,Spike/tapered,0-10 litres,60,70,16,18,6,7,LRA 7 fabric
+249,Mau 35,Rounded,Carinated,Long vertical,Bifid,Cylindrical,Tapered,Spike/tapered,10-15 litres,61,80,28,35,9,12,
+255,Mid Roman Amphora 5,Rounded,Rounded,Bowed,Ridged,Conical,Ovoid,Spike/tapered,75-80 litres,43,44,26,36,11,12,
+258,Oberaden 83,Rounded,Rounded,Curved,Round,Cylindrical,Ovoid,Spike/tapered,Unsure,80,81,44,45,16,17,Dressel 20 fabric
+259,Opaiţ B1,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Knobbed,80-85 litres,47,100,23,41,10,15,Opaiţ B1 fabric
+262,Opaiţ E4,Everted,Rounded,Curved,Ovoid/Elliptical,Conical,Tapered,Pointed,Unsure,48,50,31,35,8,11,Opaiţ E4 fabric
+263,Opaiţ E8,Everted,Rounded,Curved,Round,Cylindrical,Tapered,Spike/tapered,0-10 litres,44,52,8,14,0,6,Opaiţ E8 fabric
+264,Opaiţ F9,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Ovoid,Knobbed,Unsure,45,75,27,40,11,22,Opaiţ F9 fabric
+265,Ostia 59,Beaded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Knobbed,Unsure,86,100,32,35,12,14,Tunisian fabric
+267,Late Roman Amphora 5,Rounded,Rounded,Ring,Ovoid/Elliptical,None,Globular,Rounded,20-25 litres,39,43,32,36,10,11,
+268,Pascual 1,Collar,Rounded,Short vertical,Grooved,Cylindrical,Ovoid,Spike/tapered,20-25 litres,95,100,31,32,6,13,
+271,Peacock & Williams 60,Triangular,None/smooth,Curved,Ovoid/Elliptical,Cylindrical,Globular,Rounded basal point,Unsure,44,45,34,35,11,12,
+273,Gauloise 15,Everted,Rounded,Bowed,Grooved,Cylindrical,Tapered,Spike/tapered,Unsure,45,51,14,15,9,10,Gauloise 15 fabric
+278,Pompeii 5,Flanged,Rounded,Peaked,Ridged,Conical,Tapered,Ringed,Unsure,36,53,0,0,0,0,Pompeii 5 fabric
+280,Pompeii 13,Rounded,Carinated,Peaked,Bifid,Broad/wide,Piriform,Knobbed,Unsure,91,92,32,33,18,19,
+281,Pompeii 38,Rounded,Carinated,Peaked,Ovoid/Elliptical,Cylindrical,Cylindrical,Knobbed,Unsure,83,84,26,27,10,11,Pompeii 38 fabric
+286,Richborough 527,Rounded,None/smooth,Ear-shaped,Ridged,None,Cylindrical,Spike/tapered,25-30 litres,0,0,0,0,0,0,Richborough 527 fabric
+287,Samos Cistern Type,Rounded,None/smooth,Curved,Ovoid/Elliptical,Broad/wide,Cylindrical,Spike/tapered,0-10 litres,60,70,20,22,8,12,Samos Cistern Type fabric
+288,Schรถrgendorfer 558,Rounded,Carinated,Long vertical,Grooved,Cylindrical,Tapered,Cylindrical,Unsure,70,75,27,29,14,16,Schรถrgendorfer 558 fabric
+289,Spatheion 1,Everted,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Narrow,Spike/tapered,0-10 litres,81,96,14,18,10,11,Tunisian fabric
+290,Spello,Everted,Rounded,Long vertical,Ridged,Cylindrical,Tapered,Ringed,15-20 litres,59,61,34,36,9,9,
+291,Stonea type,Rounded,None/smooth,Curved,Ovoid/Elliptical,Cylindrical,Piriform,Flat,Unsure,0,107,0,65,0,22,Stonea fabric
+301,Teliţa,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Ovoid,Knobbed,15-20 litres,44,65,21,30,10,12,Teliţa fabric
+302,OpaiĹŁ C2,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Ovoid,Spike/tapered,25-30 litres,36,45,18,27,6,7,Torone 3 fabric
+303,OpaiĹŁ C1,Rounded,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Ovoid,Pointed,50-55 litres,58,94,27,40,7,13,Torone 7 fabric
+304,Tripolitanian 1,Everted,Rounded,Short vertical,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,98,105,33,36,14,15,
+305,Tripolitanian 2,Everted,Rounded,Ear-shaped,Round,Short/narrow,Cylindrical,Spike/tapered,80-85 litres,0,118,30,37,14,17,
+306,Tripolitanian 3,Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Conical,Cylindrical,Spike/tapered,80-85 litres,0,115,38,38,13,14,
+307,Vindonissa 592,Everted,Rounded,Ring,Ovoid/Elliptical,Broad/wide,Cylindrical,Spike/tapered,Unsure,0,76,0,17,0,13,Tunisian fabric
+308,Africana 2B Pseudo-Tripolitanian,Everted,Rounded,Ear-shaped,Semi-circular,Cylindrical,Piriform,Knobbed,Unsure,104,104,38,44,14,14,Tunisian fabric
+309,Africana 3B,Flaring,Carinated,Ear-shaped,Ridged,Conical,Cylindrical,Spike/tapered,20-25 litres,107,112,25,26,12,13,Tunisian fabric
+310,Africana 3C,Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,20-25 litres,105,115,22,27,12,16,Tunisian fabric
+311,Agora F65-66,Beaded,None/smooth,Arched,Round,Short/narrow,Ovoid,Short hollow,0-10 litres,24,47,0,0,0,0,Agora F65-66 fabric
+312,Agora M334,Flanged,Rounded,Arched,Ridged,Cylindrical,Tapered,Button,Unsure,55,57,0,0,0,0,Agora M334 fabric
+313,Almagro 51C Variant,Collar,,,,,,Short hollow,0-10 litres,55,59,18,19,7,12,
+314,AM72,Collar,Carinated,Long vertical,Grooved,Cylindrical,Tapered,Short hollow,Unsure,0,0,0,0,11,14,AM72 fabric
+315,Amphore de Pamphylie,Rounded,Carinated,Curved,Semi-circular,Short/narrow,Ovoid,Rounded basal point,Unsure,46,63,29,37,7,10,Amphore de Pamphylie fabric
+316,Amphore Ăgyptienne 1,Beaded,Carinated,Long vertical,Ridged,Cylindrical,Tapered,Spike/tapered,Unsure,0,0,0,0,0,0,Lake Mariout fabric
+317,Amphore Ăgyptienne 2,Collar,Rounded,Long vertical,Grooved,Conical,Ovoid,Spike/tapered,Unsure,0,0,0,0,0,0,Lake Mariout fabric
+318,Amphore Ăgyptienne Bitronconique 3,Triangular,Rounded,Bowed,Ovoid/Elliptical,Cylindrical,Tapered,Spike/tapered,Unsure,0,0,0,0,0,0,
+319,Amrit amphora,Beaded,Rounded,Long vertical,Grooved,Cylindrical,Tapered,Button,Unsure,0,95,0,34,8,12,Amrit fabric
+320,Beirut 2,Triangular,Rounded,Curved,Ridged,Broad/wide,Tapered,Pointed,Unsure,0,0,0,0,8,10,Beirut City fabric
+321,Carthage Early Roman 4,Flaring,Rounded,Long vertical,Ridged,Cylindrical,Cylindrical,Long hollow,Unsure,0,95,0,0,0,17,Tunisian fabric
+322,Con Orlo a Fascia,Collar,Rounded,Short vertical,,Cylindrical,Cylindrical,Button,Unsure,0,86,0,24,0,12,Tunisian fabric
+323,Crétoise 3,,,Curved,,,Cylindrical,Rounded basal point,Unsure,30,60,0,0,0,0,Crétoise 3 fabric
+324,Dressel 1,Collar,Carinated,Long vertical,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,97,117,28,29,17,18,
+325,Dressel 2-4 African,Rounded,Carinated,Short vertical,Bifid,Short/narrow,Cylindrical,Spike/tapered,Unsure,71,97,20,35,12,14,Tunisian fabric
+326,Dressel 2-4 Cilician,Beaded,Carinated,Long vertical,Bifid,Short/narrow,Cylindrical,Spike/tapered,Unsure,0,0,0,0,0,0,Dressel 2-4 Cilician fabric
+327,Dressel 2-4 Flat-based,Beaded,Rounded,Long vertical,Bifid,,Ovoid,Flat,10-15 litres,59,60,33,34,10,11,Campanian 'Black Sand' fabric
+328,Dressel 2-4 in Verulamium Region White Ware,Beaded,Carinated,Long vertical,Bifid,Hourglass,Tapered,Spike/tapered,Unsure,0,0,30,31,11,13,Dressel 2-4 Verulamium Region White Ware fabric
+329,Dressel 30 - Keay 1B,Everted,Rounded,Curved,Semi-circular,Hourglass,Piriform,Knobbed,Unsure,67,69,37,37,12,14,Keay 1B fabric
+332,Gauloise 10,Everted,Carinated,Long vertical,Ovoid/Elliptical,Cylindrical,Tapered,Spike/tapered,Unsure,0,0,22,28,15,16,Gauloise 10 fabric
+333,Gauloise 11,Everted,Carinated,Long vertical,Grooved,Cylindrical,Tapered,Spike/tapered,Unsure,57,58,17,18,10,11,Gauloise 11 fabric
+334,Gauloise 13,Triangular,None/smooth,Peaked,Ridged,Hourglass,Globular,Ringed,Unsure,73,74,61,62,17,18,Gauloise 13 fabric
+335,Gauloise 14,Everted,None/smooth,Arched,Grooved,Hourglass,Globular,Flat,70-75 litres,68,73,0,0,15,19,Gauloise 14 fabric
+337,Gauloise 4/5/6 similis in Verulamium White Ware,Flanged,Rounded,Curved,Bifid,Short/narrow,Globular,Ringed,Unsure,615,615,370,370,160,176,Gauloise 1 Verulamium White Ware fabric
+338,Gauloise 6,Everted,Rounded,Short vertical,Ridged,Cylindrical,Ovoid,Ringed,Unsure,0,0,0,0,15,20,Gauloise 6 fabric
+339,Gauloise 7,Everted,None/smooth,Short vertical,Grooved,Cylindrical,Globular,Ringed,Unsure,0,0,0,0,7,16,Gauloise 7 fabric
+340,Gauloise 8,Pulley wheel,,Arched,Grooved,,,Ringed,Unsure,0,0,0,0,14,19,Gauloise 8 fabric
+341,Gauloise 9,Everted,Rounded,Short vertical,Ridged,Hourglass,Ovoid,Ringed,Unsure,0,0,0,0,11,13,Gauloise 9 fabric
+342,Gauloise Amphora in Sugar Loaf Court Ware,Flaring,Rounded,Arched,,Conical,Globular,Rounded basal point,Unsure,0,0,0,0,0,0,Sugar Loaf Court fabric
+344,Gauloise Amphora in Verulamium White Slipped Ware,Triangular,,,Grooved,,,,Unsure,0,0,0,0,120,150,Verulamium White Ware fabric
+346,Hammamet 2,Collar,Rounded,Curved,Grooved,Conical,Cylindrical,Rounded basal point,85-90 litres,112,120,37,48,18,19,Hammamet fabric
+347,Hammamet 3,Collar,Rounded,Curved,Grooved,Conical,Cylindrical,Spike/tapered,Over 100 litres,0,0,35,50,14,18,Hammamet fabric
+348,Keay 61C,Everted,Carinated,Bowed,Ovoid/Elliptical,Short/narrow,Cylindrical,,45-50 litres,105,111,0,0,0,0,Tunisian fabric
+349,Keay 62Q & R,Collar,Rounded,Arched,Ovoid/Elliptical,Cylindrical,Cylindrical,Knobbed,50-55 litres,112,117,34,37,13,14,Tunisian fabric
+350,Keay 8B,Collar,Rounded,Short vertical,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,0,0,0,14,15,Tunisian fabric
+351,Late Roman Amphora 6,Rounded,Rounded,Ring,Ovoid/Elliptical,None,Globular,Rounded,Unsure,39,43,32,36,10,11,Palestinian grey fabric
+352,Leptiminus 1,Flanged,Rounded,Long vertical,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,25-30 litres,99,103,22,27,14,21,Tunisian fabric
+353,Leptiminus 2,Rounded,Rounded,Curved,Round,Short/narrow,Cylindrical,Spike/tapered,40-45 litres,56,66,23,40,12,16,Tunisian fabric
+354,Lomba do Canho 67,Collar,Rounded,Curved,Grooved,Hourglass,Ovoid,Short hollow,Unsure,0,0,0,0,23,24,Haltern 70 fabric
+355,Lusitanian 3,Collar,Rounded,Arched,Grooved,Short/narrow,Ovoid,Ringed,15-20 litres,45,54,25,33,7,10,Lusitanian 3 fabric
+356,Lusitanian 9,Everted,None/smooth,Bowed,Ovoid/Elliptical,None,Ovoid,Ringed,Unsure,50,60,25,27,13,15,Lusitanian 9 fabric
+357,Opaiţ E9,Beaded,Rounded,Bowed,Ovoid/Elliptical,Hourglass,Tapered,Rounded,Unsure,32,40,12,18,4,5,Opaiţ E9 fabric
+358,Ostia 23,Beaded,Rounded,Arched,Ovoid/Elliptical,Short/narrow,Cylindrical,Short hollow,Unsure,0,0,0,0,0,15,Tunisian fabric
+359,Pascual 1 similis,Collar,Rounded,Long vertical,Grooved,Cylindrical,Ovoid,Spike/tapered,Unsure,0,0,0,0,0,0,
+360,Peacock & Williams 52,Rounded,Carinated,Curved,Ovoid/Elliptical,Cylindrical,Tapered,Spike/tapered,Unsure,60,61,16,17,6,7,LRA 7 fabric
+361,Peacock & Williams 65,Rounded,Rounded,Ear-shaped,Ridged,Broad/wide,Tapered,Ringed,Unsure,19,20,0,0,0,0,Peacock & Williams 65 fabric
+362,Sidi Jdidi 2,Rounded,Rounded,Curved,Ridged,Cylindrical,Cylindrical,Knobbed,Unsure,126,127,49,50,15,15,Tunisian fabric
+363,Spatheion 2,Everted,Rounded,Curved,Semi-circular,Cylindrical,Narrow,Spike/tapered,0-10 litres,0,85,12,13,7,8,Tunisian fabric
+364,Spatheion 3,Triangular,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,0-10 litres,45,50,7,13,5,6,South Byzancena fabric
+365,Station 48 Ostia,Rounded,Carinated,Arched,Semi-circular,Short/narrow,Ovoid,Knobbed,Unsure,0,0,41,42,13,14,Station 48 Ostia
+366,Van der Werff 1,Flaring,Rounded,Ear-shaped,Ovoid/Elliptical,Hourglass,Cylindrical,Long hollow,Unsure,100,110,22,29,19,27,Tunisian fabric
+367,Van der Werff 2,Flanged,Rounded,Ear-shaped,,Conical,Cylindrical,Spike/tapered,Unsure,0,84,20,21,16,21,Tunisian fabric
+368,Van der Werff 3,Everted,Rounded,Ear-shaped,Ovoid/Elliptical,Short/narrow,Cylindrical,Rounded basal point,Unsure,55,86,20,25,11,14,Tunisian fabric
+369,Agora G199,Everted,Carinated,Short vertical,Grooved,Cylindrical,Cylindrical,Knobbed,15-20 litres,65,75,0,0,0,0,Agora G199 fabric
+370,Ancient Tripolitanian Amphora,Triangular,Rounded,Ear-shaped,Round,Hourglass,Ovoid,Button,Unsure,70,84,0,35,13,15,
+371,Dressel 30 - Tunisian Variants,Rounded,Rounded,Arched,Grooved,Cylindrical,Ovoid,Ringed,Unsure,0,0,0,38,0,11,Tunisian fabric
+372,Keay 36,Everted,Rounded,Curved,Grooved,Hourglass,Cylindrical,Button,55-60 litres,0,0,0,0,11,12,Tunisian fabric
+373,"Uzita 52, 10",Rounded,Rounded,Curved,Round,Cylindrical,Cylindrical,Spike/tapered,Unsure,0,92,0,35,12,16,Tunisian fabric
+374,Sagalassos,Everted,Rounded,Curved,Round,Short/narrow,Globular,Flat,10-15 litres,38,42,29,30,6,6,Sagalassos 4 fabric
+375,Melos,Collar,Rounded,Curved,Ovoid/Elliptical,Cylindrical,Cylindrical,Spike/tapered,Unsure,100,150,30,41,13,15,Melian fabric
